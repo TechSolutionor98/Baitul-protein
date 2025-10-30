@@ -1,0 +1,14 @@
+<svg width="1600" height="320" viewBox="0 0 1600 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#d1d5db"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="320" rx="16" fill="url(#g)"/>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial" text-anchor="middle">
+    <text x="800" y="155" fill="#111827" font-size="32" font-weight="700">Your banner here</text>
+    <text x="800" y="190" fill="#374151" font-size="18">Recommended: 1600 x 320 (or any wide image)</text>
+  </g>
+  <rect x="12" y="12" width="1576" height="296" rx="14" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="10 8"/>
+</svg>

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gold scrollbar utility for sidebar lists */
+.scrollbar-gold::-webkit-scrollbar {
+	width: 10px;
+}
+.scrollbar-gold::-webkit-scrollbar-track {
+	background: #f2e8c5;
+}
+.scrollbar-gold::-webkit-scrollbar-thumb {
+	background-color: #d4af37;
+	border-radius: 8px;
+	border: 2px solid #f2e8c5;
+}
+.scrollbar-gold {
+	scrollbar-color: #d4af37 #f2e8c5; /* Firefox */
+	scrollbar-width: thin;
+}
