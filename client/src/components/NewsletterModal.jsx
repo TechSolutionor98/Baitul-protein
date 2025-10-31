@@ -44,7 +44,7 @@ const NewsletterModal = ({ email, onClose }) => {
         <div className="bg-white p-6 rounded shadow-lg max-w-sm w-full">
           <h2 className="text-lg font-bold mb-2 text-black">Thank you for subscribing!</h2>
           <p className="mb-4 text-black">A confirmation email has been sent to {email}.</p>
-          <button className="bg-lime-500 text-white px-4 py-2 rounded" onClick={onClose}>Close</button>
+          <button className="bg-[#d9a82e] text-white px-4 py-2 rounded" onClick={onClose}>Close</button>
         </div>
       </div>
     );
@@ -73,7 +73,7 @@ const NewsletterModal = ({ email, onClose }) => {
           {error && <div className="text-red-500 mb-2">{error}</div>}
           <div className="flex justify-end gap-2">
             <button type="button" className="px-4 py-2 rounded bg-gray-200 text-black" onClick={onClose} disabled={loading}>Cancel</button>
-            <button type="submit" className="px-4 py-2 rounded bg-lime-500 text-white" disabled={loading || selected.length === 0}>
+            <button type="submit" className="px-4 py-2 rounded bg-[#d9a82e] text-white" disabled={loading || selected.length === 0}>
               {loading ? "Subscribing..." : "Subscribe"}
             </button>
           </div>
