@@ -1014,7 +1014,7 @@ const AdminSidebar = () => {
           className={`block ${paddingLeft} py-3 ${textSize} transition-colors duration-200 flex items-center space-x-3 ${
             isActive(subItem.path)
               ? "bg-[#2377c1] text-white border-r-2 border-[#d9a82e]"
-              : "text-gray-700 hover:bg-[#f1f8fe]"
+              : "text-gray-700 hover:text-white hover:bg-[#d9a82e]"
           }`}
         >
           {item.icon && <item.icon size={20} />}

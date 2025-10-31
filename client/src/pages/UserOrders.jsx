@@ -91,7 +91,7 @@ const UserOrders = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h1 className="text-2xl font-bold text-gray-900 mb-8">My Orders</h1>
+      <h1 className="text-2xl font-bold text-white text-center bg-[#d9a82e] p-4 rounded-lg mb-8">My Orders</h1>
 
       {successMessage && (
         <div className="mb-6 p-4 bg-green-50 text-green-600 rounded-md flex items-center">
