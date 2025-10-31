@@ -106,14 +106,14 @@ const Navbar = () => {
                     <User size={22} />
                   </button>
                   {isProfileOpen && (
-                    <div ref={profileRef} className="absolute right-0 w-48 py-2 mt-2 bg-white rounded-md shadow-xl z-20 border">
+                    <div ref={profileRef} className="absolute right-0 w-48 py-2 px-2 mt-2 bg-white rounded-md shadow-xl z-20 border">
                       {isAuthenticated ? (
                         <>
-                          <Link to="/profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" onClick={() => setIsProfileOpen(false)}>My Profile</Link>
-                          <Link to="/orders" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" onClick={() => setIsProfileOpen(false)}>My Orders</Link>
-                          <Link to="/track-order" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" onClick={() => setIsProfileOpen(false)}>Track Order</Link>
+                          <Link to="/profile" className="block px-4 py-2 text-sm rounded text-gray-700 hover:text-white hover:bg-[#d9a82e]" onClick={() => setIsProfileOpen(false)}>My Profile</Link>
+                          <Link to="/orders" className="block px-4 py-2 text-sm rounded text-gray-700 hover:text-white hover:bg-[#d9a82e]" onClick={() => setIsProfileOpen(false)}>My Orders</Link>
+                          <Link to="/track-order" className="block px-4 py-2 text-sm rounded text-gray-700 hover:text-white hover:bg-[#d9a82e]" onClick={() => setIsProfileOpen(false)}>Track Order</Link>
                           <hr className="my-1" />
-                          <button onClick={handleLogout} className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Logout</button>
+                          <button onClick={handleLogout} className="block w-full text-left  px-4 py-2 text-sm text-gray-700 rounded hover:bg-[#dc2626] hover:text-white">Logout</button>
                         </>
                       ) : (
                         <>

@@ -13,10 +13,10 @@ const Profile = () => {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      <div className="bg-white rounded-lg shadow-md overflow-hidden">
+      <div className="bg-white rounded-lg overflow-hidden">
         <div className="bg-[#d9a82e] p-6 text-white">
           <h1 className="text-2xl font-bold mb-2">My Profile</h1>
-          <p className="text-gray-900 font-bold">Manage your account settings and preferences</p>
+          <p className="text-white font-bold">Manage your account settings and preferences</p>
         </div>
 
         <div className="p-6">
@@ -59,18 +59,18 @@ const Profile = () => {
             {/* Right: Quick Links */}
             <section>
               <div className="bg-gray-50 rounded-lg p-5 h-full flex flex-col">
-                <h2 className="text-lg font-bold bg-white p-4 rounded-lg text-black mb-4">Quick Links</h2>
-                <div className="flex flex-col gap-3 items-stretch md:items-end">
+                {/* <h2 className="text-lg font-bold bg-[#d9a82e] p-4 rounded-lg text-white text-center mb-4">Quick Links</h2> */}
+                <div className="flex flex-col gap-3 items-stretch">
                   <button
                     onClick={() => navigate("/orders")}
-                    className="w-full md:w-auto inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#2377c1] text-white hover:bg-[#1f6aae] transition-colors"
+                    className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 text-[15px] font-semibold rounded-lg bg-[#2377c1] text-white hover:bg-[#1f6aae] transition-colors"
                   >
                     <Package size={18} />
                     <span>View My Orders</span>
                   </button>
                   <button
                     onClick={() => navigate("/cart")}
-                    className="w-full md:w-auto inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#2377c1] text-white hover:bg-[#1f6aae] transition-colors"
+                    className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 text-[15px] font-semibold rounded-lg bg-[#2377c1] text-white hover:bg-[#1f6aae] transition-colors"
                   >
                     <ShoppingCart size={18} />
                     <span>My Cart</span>
