@@ -161,7 +161,7 @@ function DefaultCanonical() {
   return (
     <Helmet prioritizeSeoTags>
       {/* Default Site Title can be adjusted by SEO team */}
-      <title>Grabatoz</title>
+      <title>Baitul Protein</title>
       <link rel="canonical" href={href} />
     </Helmet>
   )
