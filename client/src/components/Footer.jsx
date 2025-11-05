@@ -174,7 +174,7 @@ const Footer = ({ className = "" }) => {
             <div className="md:col-span-2">
               <h3 className="text-2xl font-semibold mb-4">More Categories</h3>
               <ul className="space-y-2 text-white text-sm">
-                {categories.slice(6, 12).map((category) => (
+                {categories.slice(6, 14).map((category) => (
                   <li key={category._id}>
                     <Link to={generateShopURL({ parentCategory: category.name })} className="hover:text-[#d9a82e] transition-colors">
                       {category.name}
